@@ -1,4 +1,4 @@
-package com.educandoweb.course.resource;
+package com.educandoweb.course.resources;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.educandoweb.course.entities.Category;
-import com.educandoweb.course.service.CategoryService;
+import com.educandoweb.course.services.CategoryService;
 
 @RestController
 @RequestMapping (value = "/categories")
